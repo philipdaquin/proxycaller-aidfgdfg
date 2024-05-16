@@ -14,6 +14,15 @@
 		2044F1262BF1CF5D006A6A6C /* proxycaller_aiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2044F1252BF1CF5D006A6A6C /* proxycaller_aiTests.swift */; };
 		2044F1302BF1CF5D006A6A6C /* proxycaller_aiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2044F12F2BF1CF5D006A6A6C /* proxycaller_aiUITests.swift */; };
 		2044F1322BF1CF5D006A6A6C /* proxycaller_aiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2044F1312BF1CF5D006A6A6C /* proxycaller_aiUITestsLaunchTests.swift */; };
+		2088A92D2BF319CA005B7A76 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2088A92C2BF319CA005B7A76 /* LoadingView.swift */; };
+		2088A92F2BF32187005B7A76 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2088A92E2BF32187005B7A76 /* WeatherService.swift */; };
+		208F1B322BF467A1002E8C64 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F1B312BF467A1002E8C64 /* WeatherView.swift */; };
+		208F1B342BF46822002E8C64 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F1B332BF46822002E8C64 /* ModelData.swift */; };
+		208F1B362BF4698E002E8C64 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 208F1B352BF4698E002E8C64 /* weatherData.json */; };
+		208F1B382BF46B7A002E8C64 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F1B372BF46B7A002E8C64 /* Extensions.swift */; };
+		20AC16C62BF5BBF300BBDDEE /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC16C52BF5BBF300BBDDEE /* WeatherRow.swift */; };
+		20D0DA442BF305450049B7E3 /* locationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D0DA432BF305450049B7E3 /* locationServices.swift */; };
+		20D0DA482BF30D0C0049B7E3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D0DA472BF30D0C0049B7E3 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,15 @@
 		2044F12B2BF1CF5D006A6A6C /* proxycaller-aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "proxycaller-aiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2044F12F2BF1CF5D006A6A6C /* proxycaller_aiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proxycaller_aiUITests.swift; sourceTree = "<group>"; };
 		2044F1312BF1CF5D006A6A6C /* proxycaller_aiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proxycaller_aiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2088A92C2BF319CA005B7A76 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2088A92E2BF32187005B7A76 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		208F1B312BF467A1002E8C64 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		208F1B332BF46822002E8C64 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		208F1B352BF4698E002E8C64 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		208F1B372BF46B7A002E8C64 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		20AC16C52BF5BBF300BBDDEE /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		20D0DA432BF305450049B7E3 /* locationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationServices.swift; sourceTree = "<group>"; };
+		20D0DA472BF30D0C0049B7E3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,11 @@
 		2044F1122BF1CF5C006A6A6C /* proxycaller-ai */ = {
 			isa = PBXGroup;
 			children = (
+				20AC16C42BF5BBDB00BBDDEE /* Components */,
+				20D0DA462BF30ABB0049B7E3 /* Views */,
+				20D0DA422BF305050049B7E3 /* services */,
 				2044F1132BF1CF5C006A6A6C /* proxycaller_aiApp.swift */,
-				2044F1152BF1CF5C006A6A6C /* ContentView.swift */,
+				208F1B372BF46B7A002E8C64 /* Extensions.swift */,
 				2044F1172BF1CF5D006A6A6C /* Assets.xcassets */,
 				2044F1192BF1CF5D006A6A6C /* proxycaller_ai.entitlements */,
 				2044F11A2BF1CF5D006A6A6C /* Preview Content */,
@@ -108,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				2044F11B2BF1CF5D006A6A6C /* Preview Assets.xcassets */,
+				208F1B332BF46822002E8C64 /* ModelData.swift */,
+				208F1B352BF4698E002E8C64 /* weatherData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -127,6 +150,34 @@
 				2044F1312BF1CF5D006A6A6C /* proxycaller_aiUITestsLaunchTests.swift */,
 			);
 			path = "proxycaller-aiUITests";
+			sourceTree = "<group>";
+		};
+		20AC16C42BF5BBDB00BBDDEE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20AC16C52BF5BBF300BBDDEE /* WeatherRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		20D0DA422BF305050049B7E3 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				20D0DA432BF305450049B7E3 /* locationServices.swift */,
+				2088A92E2BF32187005B7A76 /* WeatherService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		20D0DA462BF30ABB0049B7E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2044F1152BF1CF5C006A6A6C /* ContentView.swift */,
+				20D0DA472BF30D0C0049B7E3 /* WelcomeView.swift */,
+				2088A92C2BF319CA005B7A76 /* LoadingView.swift */,
+				208F1B312BF467A1002E8C64 /* WeatherView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +244,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					2044F10F2BF1CF5C006A6A6C = {
 						CreatedOnToolsVersion = 15.3;
@@ -234,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2044F11C2BF1CF5D006A6A6C /* Preview Assets.xcassets in Resources */,
+				208F1B362BF4698E002E8C64 /* weatherData.json in Resources */,
 				2044F1182BF1CF5D006A6A6C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +312,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2044F1162BF1CF5C006A6A6C /* ContentView.swift in Sources */,
+				208F1B382BF46B7A002E8C64 /* Extensions.swift in Sources */,
 				2044F1142BF1CF5C006A6A6C /* proxycaller_aiApp.swift in Sources */,
+				20D0DA442BF305450049B7E3 /* locationServices.swift in Sources */,
+				2088A92D2BF319CA005B7A76 /* LoadingView.swift in Sources */,
+				20AC16C62BF5BBF300BBDDEE /* WeatherRow.swift in Sources */,
+				2088A92F2BF32187005B7A76 /* WeatherService.swift in Sources */,
+				208F1B342BF46822002E8C64 /* ModelData.swift in Sources */,
+				208F1B322BF467A1002E8C64 /* WeatherView.swift in Sources */,
+				20D0DA482BF30D0C0049B7E3 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +391,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -392,6 +453,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -419,7 +481,9 @@
 				CODE_SIGN_ENTITLEMENTS = "proxycaller-ai/proxycaller_ai.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"proxycaller-ai/Preview Content\"";
+				DEVELOPMENT_TEAM = FPQQAW92K3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -432,7 +496,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -455,7 +519,9 @@
 				CODE_SIGN_ENTITLEMENTS = "proxycaller-ai/proxycaller_ai.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"proxycaller-ai/Preview Content\"";
+				DEVELOPMENT_TEAM = FPQQAW92K3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -468,7 +534,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -490,6 +556,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -512,6 +579,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -533,6 +601,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -554,6 +623,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
